@@ -13,9 +13,9 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, PrimeVoidCraft.MOD_ID);
 
     public static final RegistryObject<Item> OMEGA = ITEMS.register("omega",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeTabPrime.PRIMEITEMS_TAB)));
     public static final RegistryObject<Item> OMEGASTAR = ITEMS.register("omegastar",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeTabPrime.PRIMEITEMS_TAB)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
