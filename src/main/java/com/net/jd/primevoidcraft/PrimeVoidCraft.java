@@ -1,6 +1,7 @@
 package com.net.jd.primevoidcraft;
 
 import com.mojang.logging.LogUtils;
+import com.net.jd.primevoidcraft.block.ModBlocks;
 import com.net.jd.primevoidcraft.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -26,6 +27,7 @@ public class PrimeVoidCraft
         modEventBus.addListener(this::commonSetup);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }

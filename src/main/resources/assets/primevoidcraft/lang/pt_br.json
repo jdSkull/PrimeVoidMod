@@ -1,4 +1,10 @@
 {
   "item.primevoidcraft.omega": "Omega",
-  "item.primevoidcraft.omegastar": "Omega Star"
+  "item.primevoidcraft.omegastar": "Omega Star",
+
+  "block.primevoidcraft.omega_ore": "Minerio Omega",
+  "block.primevoidcraft.block_omega": "Bloco Omega",
+
+  "itemGroup.primeitemstab": "Recursos Prime",
+  "itemGroup.primeblocks": "Blocos PrimeVoidCraft"
 }
