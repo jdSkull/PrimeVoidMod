@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "primevoidcraft:item/omegastar"
+    "layer0": "primevoidcraft:item/raw_omega"
   }
 }

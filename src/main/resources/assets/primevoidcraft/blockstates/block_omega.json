@@ -1,5 +1,5 @@
 {
   "variants": {
-      "": { "model": "primevoidcraft:block/block_omega" }
+    "": { "model": "primevoidcraft:block/block_omega" }
   }
 }

@@ -1,7 +1,6 @@
 package com.net.jd.primevoidcraft.item;
 
 import com.net.jd.primevoidcraft.PrimeVoidCraft;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,7 +13,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> OMEGA = ITEMS.register("omega",
             () -> new Item(new Item.Properties().tab(ModCreativeTabPrime.PRIMEITEMS_TAB)));
-    public static final RegistryObject<Item> OMEGASTAR = ITEMS.register("omegastar",
+    public static final RegistryObject<Item> OMEGASTAR = ITEMS.register("raw_omega",
             () -> new Item(new Item.Properties().tab(ModCreativeTabPrime.PRIMEITEMS_TAB)));
 
     public static void register(IEventBus eventBus){

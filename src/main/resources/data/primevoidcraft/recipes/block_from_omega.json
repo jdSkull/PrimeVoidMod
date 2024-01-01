@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "omega",
+  "ingredients": [
+    {
+      "item": "primevoidcraft:block_omega"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "primevoidcraft:omega"
+  }
+}
