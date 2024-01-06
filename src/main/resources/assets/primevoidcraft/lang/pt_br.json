@@ -1,10 +1,13 @@
 {
   "item.primevoidcraft.omega": "Omega",
-  "item.primevoidcraft.raw_omega": "Omega Star",
+  "item.primevoidcraft.raw_omega": "Omega Minerio",
+  "item.primevoidcraft.eight_ball": "Bola de Eventos",
+  "item.primevoidcraft.ball_explosion": "Bola Explosiva",
 
   "block.primevoidcraft.omega_ore": "Minerio Omega",
   "block.primevoidcraft.block_omega": "Bloco Omega",
-  "block.primevoidcraft.deepslate_omega_ore": "Minerio de Ardosia Omega",
+  "block.primevoidcraft.deepslate_omega_ore": "Minerio Omega de Ardosia",
+  "block.primevoidcraft.jumpy_block": "Bloco de Pulo",
 
   "itemGroup.primeitemstab": "Recursos Prime",
   "itemGroup.primeblockstab": "Blocos PrimeVoidCraft"
