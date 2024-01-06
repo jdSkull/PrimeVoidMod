@@ -2,6 +2,7 @@ package com.net.jd.primevoidcraft.block;
 
 import com.net.jd.primevoidcraft.PrimeVoidCraft;
 import com.net.jd.primevoidcraft.block.custom.JumpyBlock;
+import com.net.jd.primevoidcraft.block.custom.LampBlock;
 import com.net.jd.primevoidcraft.item.ModCreativeTabPrime;
 import com.net.jd.primevoidcraft.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -39,6 +40,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> JUMPY_BLOCK = registerBlock("jumpy_block",
             () -> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f)
                     .requiresCorrectToolForDrops()), ModCreativeTabPrime.PRIMEBLOCKS_TAB);
+    public static final RegistryObject<Block> LAMP_BLOCK = registerBlock("lamp_block",
+            () -> new LampBlock(BlockBehaviour.Properties.of(Material.DECORATION).strength(6f)
+                    .requiresCorrectToolForDrops().lightLevel(state -> state.getValue(LampBlock.LIT) ? 15 : 0)),
+            ModCreativeTabPrime.PRIMEBLOCKS_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
